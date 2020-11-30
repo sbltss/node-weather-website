@@ -1,7 +1,5 @@
 const request = require('postman-request')
 
-
-
 const forecast = (latitude, longitude, callback) => {
     const url = 'http://api.weatherstack.com/current?access_key=5bce9bfb602ce5af4b06a9aa1c4d80a4&query=' + latitude + ', ' + longitude
 
